@@ -2,8 +2,6 @@ DevOps:
 
 The DevOps tools can be categorized in seven groups depending on its purpose in the particular stage of DevOps lifecycle:
 
- 
-
     Code (Version Control System): Git
     Build (Continuous Integration): Jenkins, Travis, TeamCity
     Test (Continuous testing, inspection): JMeter, Sonarqube
@@ -11,3 +9,5 @@ The DevOps tools can be categorized in seven groups depending on its purpose in 
     Configure & Release ( Change management, containerization ): Docker Compose
     Infrastructure ( Orchestration, cloud ): Docker Swarm, Kubernetes, Mesos, AWS, Gcloud, Nexus
     Monitor ( Manage the performance): ELK, Grafana
+
+One of the benefits of use an artifact repository (Nexus, Jfrog Artifactory..) with Jenkins(or another CI tool like Bamboo) is that you can deploy your artifacts to a repository in Nexus(or Artifactory) with their control version (include SNAPSHOT in maven) previously to send these artifacts to each environment (integration environment, production environment...).
