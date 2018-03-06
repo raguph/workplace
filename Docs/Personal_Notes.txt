@@ -1,0 +1,13 @@
+DevOps:
+
+The DevOps tools can be categorized in seven groups depending on its purpose in the particular stage of DevOps lifecycle:
+
+ 
+
+    Code (Version Control System): Git
+    Build (Continuous Integration): Jenkins, Travis, TeamCity
+    Test (Continuous testing, inspection): JMeter, Sonarqube
+    Package (Artifact repository): Artifactory
+    Configure & Release ( Change management, containerization ): Docker Compose
+    Infrastructure ( Orchestration, cloud ): Docker Swarm, Kubernetes, Mesos, AWS, Gcloud, Nexus
+    Monitor ( Manage the performance): ELK, Grafana
